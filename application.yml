@@ -1,3 +1,4 @@
+server.port=9191
 eureka:
   client:
     service-url:
