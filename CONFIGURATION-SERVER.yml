@@ -2,8 +2,8 @@ server:
   port: 9191
 
 spring:
- application:
-  name: CONFIG-DEFAULT
+  application:
+    name: CONFIGURATION-SERVER
 
 eureka:
   client:
