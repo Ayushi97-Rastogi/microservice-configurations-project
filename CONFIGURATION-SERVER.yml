@@ -1,16 +1,11 @@
-server:
-  port: 9191
-
 spring:
   application:
-    name: CONFIGURATION-SERVER
-
+    name: CONFIG-SERVER
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8061/eureka/
     fetch-registry: true
     register-with-eureka: true
-     
-  instance:
+    instance:
     prefer-ip-address: true
